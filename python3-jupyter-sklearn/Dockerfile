@@ -1,5 +1,11 @@
 FROM ubuntu:latest
 MAINTAINER Fabian Linzberger <e@lefant.net>
+
+# Set the locale
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
 ADD install.sh /tmp/install.sh
