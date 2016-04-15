@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER Fabian Linzberger <e@lefant.net>
+ENV LANG en_US.UTF-8
 
 ADD install.sh /tmp/install.sh
 RUN sudo sh /tmp/install.sh
