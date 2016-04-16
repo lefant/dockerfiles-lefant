@@ -1,0 +1,1 @@
+simple ubuntu based rabbitmq-server container
