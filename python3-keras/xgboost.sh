@@ -7,4 +7,4 @@ git clone --depth 1 --recursive https://github.com/dmlc/xgboost.git
 cd xgboost
 make
 cd python-package
-python setup.py install
+python3 setup.py install
