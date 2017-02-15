@@ -31,6 +31,7 @@ libpng12-dev
 libxft-dev
 libxml2-dev
 libxslt-dev
+python-opencv
 swig
 zlib1g-dev
 
