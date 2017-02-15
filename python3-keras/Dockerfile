@@ -29,6 +29,9 @@ RUN pip3 install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_
 RUN pip3 install git+git://github.com/Theano/Theano.git
 RUN pip3 install keras
 
+ADD xgboost.sh /tmp/xgboost.sh
+RUN sh /tmp/xgboost.sh
+
 ENV TINI_VERSION v0.9.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
 RUN chmod +x /tini
