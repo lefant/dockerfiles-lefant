@@ -11,6 +11,7 @@ build-essential
 curl
 git
 make
+mg
 wget
 
 python3-dev
