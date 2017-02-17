@@ -26,6 +26,7 @@ RUN pip3 install -r /tmp/requirements.txt
 
 RUN pip3 install --upgrade git+git://github.com/lefant/scikit-optimize.git
 RUN pip3 install --upgrade git+git://github.com/lefant/keras-vis.git
+RUN pip3 install --upgrade git+git://github.com/AmazaspShumik/sklearn-bayes.git
 
 ADD xgboost.sh /tmp/xgboost.sh
 RUN sh /tmp/xgboost.sh
