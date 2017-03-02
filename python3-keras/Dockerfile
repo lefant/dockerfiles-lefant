@@ -20,6 +20,9 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
 RUN pip3 install numpy
 RUN pip3 install scipy
 
+# must be installed before auto-sklearn
+RUN pip3 install Cython
+
 ADD requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
 
