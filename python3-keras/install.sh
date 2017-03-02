@@ -17,7 +17,6 @@ wget
 python3-dev
 python3-setuptools
 python3-wheel
-cython3
 
 gfortran
 graphviz

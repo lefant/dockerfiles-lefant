@@ -20,9 +20,6 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
 RUN pip3 install numpy
 RUN pip3 install scipy
 
-# must be installed before auto-sklearn
-RUN pip3 install Cython
-
 ADD requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
 
@@ -30,6 +27,9 @@ RUN pip3 install -r /tmp/requirements.txt
 RUN pip3 install --upgrade git+git://github.com/lefant/scikit-optimize.git
 RUN pip3 install --upgrade git+git://github.com/lefant/keras-vis.git
 RUN pip3 install --upgrade git+git://github.com/AmazaspShumik/sklearn-bayes.git
+
+ADD xgboost.sh /tmp/xgboost.sh
+RUN sh /tmp/xgboost.sh
 
 
 ENV TINI_VERSION v0.9.0
