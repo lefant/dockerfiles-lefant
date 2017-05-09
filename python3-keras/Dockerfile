@@ -1,5 +1,8 @@
 FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu16.04
 
+ADD install.sh /tmp/install.sh
+RUN sh /tmp/install.sh
+
 # Set the locale
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
@@ -8,9 +11,6 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
 ENV PYTHONUNBUFFERED 1
-
-ADD install.sh /tmp/install.sh
-RUN sh /tmp/install.sh
 
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py && \
