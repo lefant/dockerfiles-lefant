@@ -7,6 +7,7 @@ apt-get upgrade -y
 
 
 PACKAGES=$(xargs <<EOF
+locales
 build-essential
 curl
 git
