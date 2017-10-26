@@ -44,4 +44,4 @@ RUN chmod +x /tini
 
 EXPOSE 8888
 ENTRYPOINT ["/tini", "--"]
-CMD ["jupyter", "notebook", "--ip=0.0.0.0"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root"]
