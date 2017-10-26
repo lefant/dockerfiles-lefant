@@ -31,6 +31,9 @@ RUN pip3 install --upgrade git+git://github.com/lefant/scikit-optimize.git
 RUN pip3 install --upgrade git+git://github.com/lefant/keras-vis.git
 RUN pip3 install --upgrade git+git://github.com/AmazaspShumik/sklearn-bayes.git
 
+RUN pip3 install --upgrade http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl 
+RUN pip3 install --upgrade torchvision
+
 ADD xgboost.sh /tmp/xgboost.sh
 RUN sh /tmp/xgboost.sh
 
