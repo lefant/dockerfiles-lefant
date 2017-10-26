@@ -3,7 +3,7 @@ Pillow>=4.0.0
 PyYAML>=3.12
 auto-sklearn>=0.1.3
 bcolz>=1.1.0
-bleach=1.5.0
+bleach==1.5.0
 boto3>=1.4.4
 edward>=1.2.3
 h5py>=2.6.0
