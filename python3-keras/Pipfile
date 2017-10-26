@@ -1,0 +1,44 @@
+[[source]]
+
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+cython = "*"
+pillow = "*"
+pyyaml = "*"
+bcolz = "*"
+"boto3" = "*"
+edward = "*"
+"h5py" = "*"
+kaggle-cli = "*"
+keras-vis = "*"
+lime = "*"
+matplotlib = "*"
+more-itertools = "*"
+nose = "*"
+opencv-python = "*"
+pandas = "*"
+patsy = "*"
+"pep8" = "*"
+pydot-ng = "*"
+pytest = "*"
+scikit-image = "*"
+scikit-learn = "*"
+seaborn = "*"
+sklearn-pandas = "*"
+statsmodels = "*"
+tensorflow-gpu = "*"
+tensorflow-tensorboard = "*"
+tqdm = "*"
+ipython = "*"
+jupyter = "*"
+notebook = "*"
+scikit-optimize = "*"
