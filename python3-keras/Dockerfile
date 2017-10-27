@@ -11,6 +11,7 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
 ENV PYTHONUNBUFFERED 1
+ENV PIP_NO_CACHE_DIR off
 
 RUN curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python3
 
