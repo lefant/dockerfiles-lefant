@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b9f6529e84f74badf962655c471435c614b5683cdf8ac529b968d6c1dfabd9a6"
+            "sha256": "cd8fce63f39190b6364aa480505a832d45feb487d1c7fc4b1aa2bad0f9844e68"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -855,6 +855,12 @@
             ],
             "version": "==0.1.11"
         },
+        "scikit-garden": {
+            "hashes": [
+                "sha256:d6fe65205f39633f17c181f552a0fc56e2f05bb2096be63f38c160fe20718d9d"
+            ],
+            "version": "==0.1.3"
+        },
         "scikit-image": {
             "hashes": [
                 "sha256:9fdef28d7f54411d80d37bbcede324c45abf44ee4b804f25e52c5967dfc2a00c",
@@ -900,6 +906,13 @@
                 "sha256:fdc39e89bd3466befb76dfc0c258d4ccad159df974954a87de3be5759172a067"
             ],
             "version": "==0.19.1"
+        },
+        "scikit-optimize": {
+            "hashes": [
+                "sha256:013c8e6091fff43454b90c9dc91feca5324c985293e877c3bccbaa0940ed3785",
+                "sha256:c01d5b9f31105172067b1df18d15c277a15c81580317c2b002d8e63df6216156"
+            ],
+            "version": "==0.4"
         },
         "scipy": {
             "hashes": [

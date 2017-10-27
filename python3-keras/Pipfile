@@ -36,6 +36,7 @@ pytest = "*"
 pyyaml = "*"
 scikit-image = "*"
 scikit-learn = "*"
+scikit-optimize = "*"
 seaborn = "*"
 sklearn-pandas = "*"
 statsmodels = "*"
@@ -43,5 +44,7 @@ tensorflow-gpu = "*"
 tensorflow-tensorboard = "*"
 tqdm = "*"
 
+
 [requires]
+
 python_version = "3"
