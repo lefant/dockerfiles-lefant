@@ -45,6 +45,7 @@ tensorflow-tensorboard = "*"
 tqdm = "*"
 keras-tqdm = "*"
 pymongo = "*"
+imbalanced-learn = "*"
 
 
 [requires]
