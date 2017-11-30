@@ -41,12 +41,12 @@ seaborn = "*"
 sklearn-pandas = "*"
 statsmodels = "*"
 tensorflow-gpu = "*"
-tensorflow-tensorboard = "*"
 tqdm = "*"
 keras-tqdm = "*"
 pymongo = "*"
 imbalanced-learn = "*"
 ray = "*"
+tensorflow-tensorboard = "==0.4.0rc3"
 
 
 [requires]
