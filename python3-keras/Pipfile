@@ -46,6 +46,7 @@ tqdm = "*"
 keras-tqdm = "*"
 pymongo = "*"
 imbalanced-learn = "*"
+ray = "*"
 
 
 [requires]
