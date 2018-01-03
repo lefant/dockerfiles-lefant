@@ -48,6 +48,8 @@ imbalanced-learn = "*"
 ray = "*"
 tensorflow-tensorboard = "*"
 "html5lib" = "*"
+lightgbm = "*"
+catboost = "*"
 
 
 [requires]
