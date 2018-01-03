@@ -34,6 +34,8 @@ ENV TINI_VERSION v0.16.1
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
 RUN chmod +x /tini
 
+ADD run_jupyter.sh /opt/run_jupyter.sh
+
 EXPOSE 8888
 ENTRYPOINT ["/tini", "--"]
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root"]
+CMD ["sh", "/opt/run_jupyter.sh"]
