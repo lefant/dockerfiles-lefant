@@ -47,6 +47,7 @@ pymongo = "*"
 imbalanced-learn = "*"
 ray = "*"
 tensorflow-tensorboard = "==0.4.0rc3"
+"html5lib" = "*"
 
 
 [requires]
