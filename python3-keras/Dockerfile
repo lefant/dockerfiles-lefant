@@ -13,6 +13,8 @@ ENV LANG en_US.UTF-8
 ENV PYTHONUNBUFFERED 1
 ENV PIP_NO_CACHE_DIR off
 
+ENV CUDA_HOME /usr/lib/x86_64-linux-gnu
+
 RUN curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python3
 
 RUN mkdir -p /opt/pipenv/
