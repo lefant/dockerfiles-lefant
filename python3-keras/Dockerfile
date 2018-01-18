@@ -38,6 +38,4 @@ RUN chmod +x /tini
 
 ADD run_jupyter.sh /opt/run_jupyter.sh
 
-EXPOSE 8888
-ENTRYPOINT ["/tini", "--"]
 CMD ["sh", "/opt/run_jupyter.sh"]
