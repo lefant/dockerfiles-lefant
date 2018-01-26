@@ -51,6 +51,7 @@ statsmodels = "*"
 tensorflow-gpu = "*"
 tensorflow-tensorboard = "*"
 tqdm = "*"
+google-api-python-client = "*"
 
 
 [requires]
