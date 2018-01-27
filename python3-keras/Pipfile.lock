@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f834b72cdc2b9da6e49691a52fde5e1fee113f3b2921e86726c01d0b53092ba7"
+            "sha256": "41ed949505c40c118740ad00711715fa165883105fdbdfaf30029280af56c0bd"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -293,6 +293,13 @@
                 "sha256:d119b5954393d81c4a986ab420cf2c8129fc95ff5c4c6bb8ab5c8f3e6446394f"
             ],
             "version": "==1.3.0"
+        },
+        "google-auth-httplib2": {
+            "hashes": [
+                "sha256:f1c437842155680cf9918df9bc51c1182fda41feef88c34004bd1978c8157e08",
+                "sha256:098fade613c25b4527b2c08fa42d11f3c2037dda8995d86de0745228e965d445"
+            ],
+            "version": "==0.0.3"
         },
         "google-cloud-core": {
             "hashes": [
@@ -911,6 +918,7 @@
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "py": {

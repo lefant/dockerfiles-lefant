@@ -53,6 +53,7 @@ tensorflow-tensorboard = "*"
 tqdm = "*"
 google-api-python-client = "*"
 google-cloud-datastore = "*"
+"google-auth-httplib2" = "*"
 
 
 [requires]
