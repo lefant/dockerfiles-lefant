@@ -52,6 +52,7 @@ tensorflow-gpu = "*"
 tensorflow-tensorboard = "*"
 tqdm = "*"
 google-api-python-client = "*"
+google-cloud-datastore = "*"
 
 
 [requires]
