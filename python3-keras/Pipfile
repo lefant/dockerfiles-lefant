@@ -19,6 +19,8 @@ bcolz = "*"
 catboost = "*"
 cython = "*"
 edward = "*"
+google-cloud-datastore = "*"
+google-cloud-storage = "*"
 imbalanced-learn = "*"
 ipython = "*"
 jupyter = "*"
@@ -51,9 +53,7 @@ statsmodels = "*"
 tensorflow-gpu = "*"
 tensorflow-tensorboard = "*"
 tqdm = "*"
-google-api-python-client = "*"
-google-cloud-datastore = "*"
-"google-auth-httplib2" = "*"
+
 
 
 [requires]
