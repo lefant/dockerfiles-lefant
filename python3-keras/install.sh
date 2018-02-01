@@ -21,6 +21,7 @@ python3-tk
 python3-wheel
 cython3
 
+cmake
 gfortran
 graphviz
 libagg-dev
@@ -28,6 +29,7 @@ libatlas-dev
 libffi-dev
 libfreetype6-dev
 libhdf5-dev
+libjpeg-dev
 liblapack-dev
 libncurses5-dev
 libopenblas-dev
