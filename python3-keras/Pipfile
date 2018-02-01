@@ -53,7 +53,7 @@ statsmodels = "*"
 tensorflow-gpu = "*"
 tensorflow-tensorboard = "*"
 tqdm = "*"
-
+crcmod = "*"
 
 
 [requires]
