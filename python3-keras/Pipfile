@@ -54,6 +54,8 @@ tensorflow-gpu = "*"
 tensorflow-tensorboard = "*"
 tqdm = "*"
 crcmod = "*"
+dask = "*"
+toolz = "*"
 
 
 [requires]
