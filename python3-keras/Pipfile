@@ -57,6 +57,8 @@ crcmod = "*"
 dask = "*"
 toolz = "*"
 pyarrow = "*"
+"jpeg4py" = "*"
+cffi = "*"
 
 
 [requires]
