@@ -59,6 +59,8 @@ toolz = "*"
 pyarrow = "*"
 "jpeg4py" = "*"
 cffi = "*"
+fasttext = "*"
+pyfasttext = "*"
 
 
 [requires]
