@@ -61,6 +61,7 @@ pyarrow = "*"
 cffi = "*"
 fasttext = "*"
 pyfasttext = "*"
+sentencepiece = "*"
 
 
 [requires]
