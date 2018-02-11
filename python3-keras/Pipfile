@@ -62,6 +62,7 @@ cffi = "*"
 fasttext = "*"
 pyfasttext = "*"
 sentencepiece = "*"
+gensim = "*"
 
 
 [requires]
