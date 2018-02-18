@@ -69,6 +69,7 @@ textblob = "*"
 futures = "*"
 requests-futures = "*"
 google-cloud-pubsub = "*"
+pyformance = "*"
 
 
 [requires]
