@@ -66,6 +66,8 @@ gensim = "*"
 wordbatch = "*"
 nltk = "*"
 textblob = "*"
+futures = "*"
+requests-futures = "*"
 
 
 [requires]
