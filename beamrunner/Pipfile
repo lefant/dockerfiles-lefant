@@ -1,0 +1,33 @@
+[[source]]
+
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+"apache-beam[gcp]" = "*"
+"pep8" = "*"
+cython = "*"
+futures = "*"
+ipython = "*"
+jupyter = "*"
+more-itertools = "*"
+notebook = "*"
+pandas = "*"
+pillow = "*"
+requests = "*"
+requests-futures = "*"
+scikit-image = "*"
+scikit-learn = "*"
+sklearn-pandas = "*"
+
+
+[requires]
+
+python_version = "2.7"
