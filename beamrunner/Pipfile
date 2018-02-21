@@ -12,20 +12,14 @@ url = "https://pypi.python.org/simple"
 [packages]
 
 "apache-beam[gcp]" = "*"
-"pep8" = "*"
 cython = "*"
-futures = "*"
-ipython = "*"
-jupyter = "*"
+google-api-python-client = "*"
 more-itertools = "*"
-notebook = "*"
-pandas = "*"
 pillow = "*"
 requests = "*"
-requests-futures = "*"
 scikit-image = "*"
-scikit-learn = "*"
-sklearn-pandas = "*"
+tensorflow = "*"
+tensorflow-transform = "*"
 
 
 [requires]
