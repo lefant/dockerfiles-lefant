@@ -11,16 +11,16 @@ url = "https://pypi.python.org/simple"
 
 [packages]
 
-"apache-beam[gcp]" = "*"
+"apache-beam[gcp,test]" = "*"
 cython = "*"
 funcsigs = "*"
 google-api-python-client = "*"
 more-itertools = "*"
+nose = "*"
 pbr = "*"
 pillow = "*"
 requests = "*"
 scikit-image = "*"
-snappy = "*"
 tensorflow = "*"
 tensorflow-transform = "*"
 

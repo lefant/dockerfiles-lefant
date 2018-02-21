@@ -18,6 +18,7 @@ wget
 python-dev
 python-opencv
 python-setuptools
+python-snappy
 python-tk
 python-wheel
 cython
