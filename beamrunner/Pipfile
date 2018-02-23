@@ -11,17 +11,19 @@ url = "https://pypi.python.org/simple"
 
 [packages]
 
+# trying to match versions from here:
+# https://cloud.google.com/dataflow/docs/concepts/sdk-worker-dependencies
+crcmod = "==1.7"
+cython = "==0.27.2"
+nose = "==1.3.7"
+pillow = "==3.4.1"
+requests = "==2.18.4"
+tensorflow = "==1.4.0"
 "apache-beam[gcp,test]" = "*"
-cython = "*"
 funcsigs = "*"
 google-api-python-client = "*"
 more-itertools = "*"
-nose = "*"
 pbr = "*"
-pillow = "*"
-requests = "*"
-scikit-image = "*"
-tensorflow = "*"
 tensorflow-transform = "*"
 
 
