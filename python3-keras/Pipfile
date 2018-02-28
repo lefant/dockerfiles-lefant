@@ -70,6 +70,8 @@ futures = "*"
 requests-futures = "*"
 google-cloud-pubsub = "*"
 pyformance = "*"
+bloscpack = "*"
+feather-format = "*"
 
 
 [requires]
