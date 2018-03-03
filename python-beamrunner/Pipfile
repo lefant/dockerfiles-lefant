@@ -11,8 +11,6 @@ url = "https://pypi.python.org/simple"
 
 [packages]
 
-# trying to match versions from here:
-# https://cloud.google.com/dataflow/docs/concepts/sdk-worker-dependencies
 crcmod = "==1.7"
 cython = "==0.27.2"
 nose = "==1.3.7"
@@ -24,6 +22,7 @@ funcsigs = "*"
 google-api-python-client = "*"
 more-itertools = "*"
 pbr = "*"
+rarfile = "*"
 tensorflow-transform = "*"
 
 

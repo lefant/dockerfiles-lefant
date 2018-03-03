@@ -13,6 +13,7 @@ curl
 git
 make
 mg
+unrar
 wget
 
 python-dev
