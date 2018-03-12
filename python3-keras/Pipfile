@@ -73,6 +73,7 @@ pyformance = "*"
 bloscpack = "*"
 feather-format = "*"
 tffm = "*"
+rarfile = "*"
 
 
 [requires]
