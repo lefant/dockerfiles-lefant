@@ -23,7 +23,7 @@ WORKDIR /opt/pipenv/
 RUN pipenv install --deploy --system
 
 
-RUN pip3 install --upgrade http://download.pytorch.org/whl/cu90/torch-0.3.1-cp36-cp36m-linux_x86_64.whl
+RUN pip3 install --upgrade http://download.pytorch.org/whl/cu90/torch-0.3.1-cp35-cp35m-linux_x86_64.whl
 RUN pip3 install --upgrade pyro-ppl torchvision
 
 # ADD xgboost.sh /tmp/xgboost.sh
