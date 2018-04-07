@@ -1,16 +1,11 @@
 [[source]]
-
 name = "pypi"
 verify_ssl = true
 url = "https://pypi.python.org/simple"
 
-
 [dev-packages]
 
-
-
 [packages]
-
 "boto3" = "*"
 "h5py" = "*"
 "html5lib" = "*"
@@ -59,11 +54,11 @@ toolz = "*"
 pyarrow = "*"
 "jpeg4py" = "*"
 cffi = "*"
-fasttext = "*"
-pyfasttext = "*"
-sentencepiece = "*"
+# fasttext = "*"
+# pyfasttext = "*"
+# sentencepiece = "*"
 gensim = "*"
-wordbatch = "*"
+# wordbatch = "*"
 nltk = "*"
 textblob = "*"
 futures = "*"
@@ -74,8 +69,7 @@ bloscpack = "*"
 feather-format = "*"
 tffm = "*"
 rarfile = "*"
-
+tensorflow = "*"
 
 [requires]
-
 python_version = "3.6"
