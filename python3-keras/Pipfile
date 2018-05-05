@@ -69,6 +69,7 @@ bloscpack = "*"
 feather-format = "*"
 tffm = "*"
 rarfile = "*"
+tensorflow-gpu = "*"
 
 [requires]
 python_version = "3"
