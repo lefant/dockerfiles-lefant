@@ -7,6 +7,7 @@
 
 (setq package-list
       '(
+        color-theme-solarized
         ein
         elpy
         flycheck
@@ -16,7 +17,6 @@
         pylint
         python-docstring
         python-mode
-        solarized-theme
         yaml-mode
         yapfify
 ))
