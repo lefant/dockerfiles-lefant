@@ -11,6 +11,7 @@ build-essential
 curl
 emacs-nox
 git
+git-lfs
 gnupg
 htop
 less
