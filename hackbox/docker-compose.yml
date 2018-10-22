@@ -1,0 +1,19 @@
+version: "3.2"
+services:
+  hackbox:
+    image: lefant/hackbox
+    environment:
+      TERM: screen-256color
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_DEFAULT_REGION: eu-west-1
+      AWS_REGION: eu-west-1
+      S3_ENDPOINT: "s3.eu-west-1.amazonaws.com"
+      S3_USE_HTTPS: "0"
+      S3_VERIFY_SSL: "0"
+      SSH_AUTH_SOCK: $SSH_AUTH_SOCK
+    volumes:
+      - $(dirname $SSH_AUTH_SOCK):$(dirname $SSH_AUTH_SOCK)
+      - "$HOME"/.ssh:"$HOME"/.ssh
+      - "$HOME"/.zsh/history:"$HOME"/.zsh/history
+      - "$HOME"/git:"$HOME"/git
